@@ -1,0 +1,73 @@
+body{
+	font-family: arial, sans-serif;
+	background-color: lightblue;
+}
+.clContainer{
+	display: flex;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+h3{	text-align: center;}
+#idPosList{
+	width:70%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.clProdWrap{
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #ddd;
+	background: #fbfbfb;
+	cursor: pointer;
+	text-align: center;
+}
+.clPImg{max-width: 100px;}
+.clPname{font-weight: 700;}
+.clPprice{color: #639aff;}
+#idPosCart{
+	width: 30%;
+	padding: 10px;
+	background: #f7f7f6;
+}
+.clEmpty{
+	color: red;
+	font-size: 16px;
+	font-style: italic;
+}
+.clCartProd{
+	padding:10px;
+	width: 100%;
+}
+.clCartProd > *{
+	box-sizing: border-box;
+}
+.clCartProdName{
+	width: 100%;
+	display: block;
+	color: blue;
+	font-size: 18px;
+}
+.clCartProdDel{
+	width:25%;
+	padding:10px;
+}
+.clCartProdDel,#idEmpty,#idCheckout{
+	background: #912121;
+	border: 1px solid #9a2121;
+	color:#fff;
+	font-weight: 700;
+	cursor: pointer;
+}
+.clCartProdQty{
+	width:25%;
+	padding: 10px;
+}
+.clTotal{
+	font-weight: 700;
+	padding: 10px;
+	color: #912121;
+}
+#idEmpty,#idCheckout{
+	padding: 10px;
+	margin: 5px;
+}
